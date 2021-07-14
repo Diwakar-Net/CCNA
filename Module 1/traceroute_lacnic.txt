@@ -1,0 +1,27 @@
+command : tracert www.lacnic.net > traceroute_lacnic.txt
+Tracing route to www.lacnic.net [2001:13c7:7002:4128::184]
+over a maximum of 30 hops:
+
+  1     7 ms     3 ms     3 ms  2409:4072:6c85:8b34::c5 
+  2     *        *        *     Request timed out.
+  3    90 ms    57 ms    49 ms  2405:200:369:eeee:20::1368 
+  4    83 ms    59 ms    47 ms  2405:200:801:2300::52a 
+  5    82 ms    57 ms    60 ms  2405:200:801:2300::52b 
+  6    69 ms    58 ms    60 ms  2405:200:801:2300::49f 
+  7     *        *        *     Request timed out.
+  8   116 ms    96 ms    89 ms  2403:e800:508:300::32 
+  9     *        *        *     Request timed out.
+ 10   124 ms   113 ms    98 ms  e0-31.switch1.sin1.he.net [2001:470:0:383::1] 
+ 11   207 ms   162 ms   319 ms  100ge16-2.core1.tyo1.he.net [2001:470:0:3f0::2] 
+ 12   318 ms   319 ms   320 ms  100ge11-1.core1.sea1.he.net [2001:470:0:268::1] 
+ 13   339 ms   434 ms   318 ms  100ge1-2.core1.msp1.he.net [2001:470:0:22a::2] 
+ 14   871 ms  1084 ms   416 ms  100ge13-1.core2.chi1.he.net [2001:470:0:18e::1] 
+ 15  1102 ms   403 ms   318 ms  100ge16-1.core1.nyc4.he.net [2001:470:0:298::2] 
+ 16  1102 ms  1127 ms  1123 ms  100ge11-1.core1.nyc5.he.net [2001:470:0:20a::2] 
+ 17   455 ms  1029 ms  1125 ms  e0-32.core3.sao1.he.net [2001:470:0:4f8::1] 
+ 18     *        *        *     Request timed out.
+ 19  1112 ms  1125 ms  1125 ms  2001:13c7:7002:2032:1::1 
+ 20  1041 ms  1125 ms   537 ms  2001:13c7:7002:2032::2 
+ 21   484 ms   653 ms   530 ms  www.lacnic.net [2001:13c7:7002:4128::184] 
+
+Trace complete.
